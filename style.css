@@ -1,0 +1,134 @@
+body{
+	font-family: calibri;
+}
+
+#halaman{
+	width: 950px;
+	min-height: 300px;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #D3D8D3;
+}
+
+#header{
+	width: 950px;
+	height: 200px;
+	background:url(gambar/header.jpg);
+}
+
+#menu{
+	width: 940px;
+	height: 30px;
+	padding-left: 10px;
+	background-color: #00A900;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li{
+	list-style: none;
+	float: left;
+
+}
+
+#menu ul li a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	height: 20px;
+}
+
+#menu ul li a:hover{
+	color: #00A900;
+	background-color: white;
+}
+
+#menu ul ul{
+	display: none;
+	position: absolute;
+	background-color: #00A900;
+	z-index: 9999;
+}
+
+#menu ul ul li{
+	float: none;
+}
+
+#menu ul li:hover > ul{
+	display: block;
+}
+
+#konten{
+	width: 950px;
+	min-height: 200px;
+}
+
+#kiri{
+	width: 180px;
+	min-height: 300px;
+	background-color: #D3A900;
+	float: left;
+	padding: 10px;
+}
+
+#tengah{
+	width: 530px;
+	height: 300px;
+	float: left;
+	padding: 10px;
+	background-color: #D3D8D3;
+}
+
+#kanan{
+	width: 180px;
+	min-height: 300px;
+	background-color: #D3A900;
+	float: left;
+	padding: 10px;
+}
+
+#clear{
+	clear: both;
+}
+
+#footer{
+	width: 940px;
+	height: 40px;
+	background-color: #00A900;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: right;
+	font-size: 10pt;
+	color: white;
+}
+
+
+a{
+	color: #00A900;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+/*Efek Spin and Zoom*/
+img{
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+img:hover {
+-webkit-transform: scale(1.8);
+-moz-transform: scale(1.8);
+-o-transform: scale(1.8);
+-ms-transform: scale(1.8);
+transform: scale(1.8);
+}
